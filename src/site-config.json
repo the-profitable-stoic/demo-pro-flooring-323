@@ -1,0 +1,588 @@
+{
+  "business": {
+    "name": "Pro Flooring 323",
+    "phone": "+16789232542",
+    "category": "flooring contractor",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-dark-premium",
+      "categoryGroup": "roofing",
+      "name": "Dark Premium",
+      "recipeFile": "roofing/dark-premium.astro",
+      "colors": {
+        "primary": "#FF6B35",
+        "primaryDark": "#E05A2B",
+        "primaryLight": "#FFD4C2",
+        "secondary": "#2A2A2A",
+        "accent": "#FF8C5A",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Atlanta's Flooring Experts",
+      "heroSubline": "Durable flooring solutions built for Atlanta homes. Expert installation and unparalleled service.",
+      "aboutTitle": "Crafting Atlanta Floors for Over a Decade",
+      "aboutText": [
+        "Pro Flooring 323 started with a simple goal: to provide Atlanta homeowners with flooring solutions that last. We understand the unique challenges our local climate and housing stock present, and we've built our business on tackling them head-on.",
+        "Our approach is straightforward: quality materials, meticulous installation, and transparent communication. We believe in doing the job right the first time, every time. No shortcuts, no compromises.",
+        "We’re invested in the Atlanta community. From sponsoring local youth sports teams to partnering with Habitat for Humanity, we believe in giving back to the city that's given us so much."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "We understand Atlanta's climate and its impact on flooring."
+        },
+        {
+          "title": "Durable Materials",
+          "description": "Flooring built to withstand Atlanta's humidity and red clay soil shifts."
+        },
+        {
+          "title": "Expert Installation",
+          "description": "Our team ensures precise and lasting flooring installation."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "No hidden fees, just honest and upfront pricing on every project."
+        }
+      ],
+      "ctaHeadline": "Get a Free Flooring Quote Today!",
+      "ctaSubline": "Transform your Atlanta home with beautiful, durable floors. Contact us now for a personalized consultation."
+    },
+    "services": [
+      {
+        "slug": "hardwood-flooring",
+        "name": "Hardwood Flooring",
+        "shortDescription": "Classic hardwood installation and refinishing for Atlanta homes.",
+        "description": "Hardwood flooring adds timeless elegance and value to any Atlanta property. We specialize in the installation, repair, and refinishing of hardwood floors, using only the highest quality materials sourced for our humid climate. From traditional oak to exotic hardwoods, we offer a wide selection to match your style and budget.\n\nOur installation process includes careful subfloor preparation to prevent issues caused by Atlanta's red clay soil and fluctuating humidity levels. We meticulously sand, stain, and finish your floors to perfection, ensuring a durable and beautiful surface that will last for years to come.\n\nRefinishing your existing hardwood floors can breathe new life into your home. We use dustless sanding techniques to minimize disruption and create a cleaner environment. Our team can match existing stains or create a custom color to perfectly complement your décor. Whether your floors are worn, scratched, or simply outdated, we can restore them to their original glory.",
+        "process": [
+          "Step 1: Consultation & Material Selection",
+          "Step 2: Subfloor Inspection & Preparation",
+          "Step 3: Precise Installation or Refinishing",
+          "Step 4: Sanding, Staining & Finishing"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Timeless Beauty & Elegance",
+          "Durability & Longevity",
+          "Improved Air Quality"
+        ],
+        "faq": [
+          {
+            "question": "How long does hardwood flooring installation take?",
+            "answer": "Installation time varies depending on the size and complexity of the project, but typically takes between 3-5 days. Refinishing can usually be completed in 2-3 days."
+          },
+          {
+            "question": "What type of hardwood is best for Atlanta's climate?",
+            "answer": "Engineered hardwood is often recommended for Atlanta due to its stability in humid conditions. However, solid hardwoods like oak and maple can also perform well with proper installation and maintenance."
+          },
+          {
+            "question": "How often should I refinish my hardwood floors?",
+            "answer": "The frequency of refinishing depends on foot traffic and wear, but typically every 7-10 years is recommended to maintain their beauty and protect the wood."
+          }
+        ]
+      },
+      {
+        "slug": "laminate-flooring",
+        "name": "Laminate Flooring",
+        "shortDescription": "Affordable and durable laminate flooring solutions for Atlanta homes.",
+        "description": "Laminate flooring is a cost-effective and versatile option for Atlanta homeowners seeking a durable and stylish alternative to hardwood. It's resistant to scratches, stains, and fading, making it ideal for high-traffic areas and homes with pets or children.\n\nWe offer a wide variety of laminate styles, colors, and textures to suit any décor. From realistic wood-look planks to contemporary tile designs, we can help you find the perfect laminate flooring to enhance your home's aesthetic.\n\nOur expert installation ensures a seamless and long-lasting finish. We properly prepare the subfloor to prevent moisture issues and ensure a level surface. Laminate flooring is easy to maintain, requiring only regular sweeping and occasional damp mopping.",
+        "process": [
+          "Step 1: Site Inspection and Measurement",
+          "Step 2: Subfloor Preparation and Leveling",
+          "Step 3: Precise Laminate Installation",
+          "Step 4: Trim and Finishing Touches"
+        ],
+        "benefits": [
+          "Affordable and Budget-Friendly",
+          "Durable and Scratch-Resistant",
+          "Easy to Clean and Maintain",
+          "Wide Variety of Styles and Colors"
+        ],
+        "faq": [
+          {
+            "question": "Is laminate flooring waterproof?",
+            "answer": "While most laminate flooring is water-resistant, some newer products are specifically designed to be waterproof, making them suitable for bathrooms and kitchens."
+          },
+          {
+            "question": "How long does laminate flooring last?",
+            "answer": "With proper care and maintenance, laminate flooring can last for 10-20 years."
+          },
+          {
+            "question": "Can I install laminate flooring myself?",
+            "answer": "While DIY installation is possible, professional installation ensures a proper and long-lasting finish, preventing issues like buckling or warping."
+          }
+        ]
+      },
+      {
+        "slug": "vinyl-flooring",
+        "name": "Vinyl Flooring",
+        "shortDescription": "Waterproof and stylish vinyl flooring options for Atlanta bathrooms and kitchens.",
+        "description": "Vinyl flooring is a popular choice for Atlanta bathrooms, kitchens, and basements due to its waterproof and moisture-resistant properties. It's also a comfortable and quiet flooring option, making it ideal for families with children.\n\nWe offer a wide selection of vinyl flooring styles, including luxury vinyl plank (LVP) and luxury vinyl tile (LVT), which mimic the look and feel of hardwood and tile. These options are durable, easy to clean, and resistant to scratches and stains.\n\nOur expert installation ensures a watertight seal, preventing water damage and mold growth. We pay close attention to detail, ensuring a seamless and professional finish that will last for years to come.",
+        "process": [
+          "Step 1: Moisture Testing and Subfloor Prep",
+          "Step 2: Precise Measurement and Cutting",
+          "Step 3: Professional Vinyl Installation",
+          "Step 4: Sealing and Finishing"
+        ],
+        "benefits": [
+          "Waterproof and Moisture-Resistant",
+          "Durable and Long-Lasting",
+          "Comfortable and Quiet Underfoot",
+          "Easy to Clean and Maintain"
+        ],
+        "faq": [
+          {
+            "question": "Is vinyl flooring suitable for basements?",
+            "answer": "Yes, vinyl flooring is an excellent choice for Atlanta basements due to its moisture-resistant properties."
+          },
+          {
+            "question": "What is the difference between LVP and LVT?",
+            "answer": "LVP (Luxury Vinyl Plank) mimics the look of hardwood planks, while LVT (Luxury Vinyl Tile) mimics the look of ceramic or stone tile."
+          },
+          {
+            "question": "How do I clean vinyl flooring?",
+            "answer": "Vinyl flooring can be easily cleaned with a damp mop and mild detergent. Avoid using abrasive cleaners or harsh chemicals."
+          }
+        ]
+      },
+      {
+        "slug": "tile-flooring",
+        "name": "Tile Flooring",
+        "shortDescription": "Durable and elegant tile flooring installation for Atlanta homes.",
+        "description": "Tile flooring offers a timeless and durable solution for Atlanta homes. Perfect for kitchens, bathrooms, and entryways, tile is resistant to water, stains, and scratches, making it ideal for high-traffic areas.\n\nWe specialize in the installation of ceramic, porcelain, and natural stone tile. From classic subway tile to intricate mosaic patterns, we can create a custom design that reflects your personal style.\n\nOur expert tile setters ensure a precise and level installation, using high-quality mortars and grouts to prevent cracking and water damage. We pay close attention to detail, ensuring a flawless finish that will last for years to come.",
+        "process": [
+          "Step 1: Design Consultation and Material Selection",
+          "Step 2: Subfloor Preparation and Leveling",
+          "Step 3: Precise Tile Installation",
+          "Step 4: Grouting and Sealing"
+        ],
+        "benefits": [
+          "Water-Resistant and Durable",
+          "Easy to Clean and Maintain",
+          "Versatile Design Options",
+          "Increased Home Value"
+        ],
+        "faq": [
+          {
+            "question": "What type of tile is best for a bathroom?",
+            "answer": "Porcelain tile is an excellent choice for bathrooms due to its water resistance and durability."
+          },
+          {
+            "question": "How do I clean tile grout?",
+            "answer": "Tile grout can be cleaned with a grout brush and a mixture of baking soda and water. For stubborn stains, use a grout cleaner specifically designed for tile."
+          },
+          {
+            "question": "Can I install tile over existing flooring?",
+            "answer": "In some cases, tile can be installed over existing flooring, but it's important to ensure that the subfloor is level and stable."
+          }
+        ]
+      },
+      {
+        "slug": "carpet-installation",
+        "name": "Carpet Installation",
+        "shortDescription": "Comfortable and stylish carpet installation services for Atlanta homes.",
+        "description": "Carpet provides warmth, comfort, and sound absorption to any Atlanta home. Ideal for bedrooms, living rooms, and playrooms, carpet creates a cozy and inviting atmosphere.\n\nWe offer a wide selection of carpet styles, colors, and textures to suit any décor. From plush Berber to durable Saxony, we can help you find the perfect carpet to meet your needs and budget.\n\nOur expert installers ensure a seamless and wrinkle-free installation, using high-quality padding to extend the life of your carpet and enhance its comfort. We properly stretch and secure the carpet to prevent bunching and ensure a long-lasting finish.",
+        "process": [
+          "Step 1: Carpet Selection and Measurement",
+          "Step 2: Padding Installation",
+          "Step 3: Precise Carpet Installation and Stretching",
+          "Step 4: Seaming and Finishing"
+        ],
+        "benefits": [
+          "Comfort and Warmth Underfoot",
+          "Sound Absorption",
+          "Wide Variety of Styles and Colors",
+          "Affordable and Budget-Friendly"
+        ],
+        "faq": [
+          {
+            "question": "What type of carpet is best for high-traffic areas?",
+            "answer": "Berber carpet is a durable and stain-resistant option for high-traffic areas."
+          },
+          {
+            "question": "How often should I clean my carpets?",
+            "answer": "Carpets should be professionally cleaned every 12-18 months to remove dirt, allergens, and stains."
+          },
+          {
+            "question": "What is the best way to remove stains from carpet?",
+            "answer": "Blot stains immediately with a clean, dry cloth. Avoid rubbing, which can spread the stain. Use a carpet stain remover specifically designed for the type of stain."
+          }
+        ]
+      },
+      {
+        "slug": "floor-repair",
+        "name": "Floor Repair Services",
+        "shortDescription": "Expert floor repair for all flooring types in Atlanta.",
+        "description": "Atlanta's climate and active households can take a toll on floors. Pro Flooring 323 specializes in repairing all types of flooring, from hardwood and laminate to vinyl and tile. Whether you have water damage, scratches, cracks, or loose boards, we can restore your floors to their original condition.\n\nOur experienced technicians assess the damage and recommend the most effective repair solution. We use high-quality materials and proven techniques to ensure a seamless and long-lasting repair. For hardwood floors, we can replace damaged boards, sand, and refinish to match the existing color and finish. For laminate and vinyl floors, we can repair or replace damaged planks or tiles. For tile floors, we can repair cracks, replace broken tiles, and re-grout to prevent water damage.\n\nDon't let damaged floors detract from the beauty and value of your home. Contact Pro Flooring 323 for expert floor repair services.",
+        "process": [
+          "Step 1: Damage Assessment and Quote",
+          "Step 2: Material Procurement",
+          "Step 3: Repair and Restoration",
+          "Step 4: Finishing and Sealing"
+        ],
+        "benefits": [
+          "Extends Floor Lifespan",
+          "Restores Appearance",
+          "Prevents Further Damage",
+          "Cost-Effective Solution"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my floors need repair?",
+            "answer": "Signs of floor damage include cracks, water stains, loose boards or tiles, scratches, and uneven surfaces."
+          },
+          {
+            "question": "Can you match the existing color and finish of my hardwood floors?",
+            "answer": "Yes, our experienced technicians can match the existing color and finish of your hardwood floors to ensure a seamless repair."
+          },
+          {
+            "question": "How long does floor repair take?",
+            "answer": "The duration of floor repair depends on the extent of the damage and the type of flooring. We provide an estimated timeline during the initial assessment."
+          }
+        ]
+      },
+      {
+        "slug": "subfloor-services",
+        "name": "Subfloor Installation and Repair",
+        "shortDescription": "Ensuring a solid foundation with expert subfloor services in Atlanta.",
+        "description": "A stable subfloor is crucial for the longevity and performance of any flooring system. In Atlanta, the red clay soil can cause foundation shifts, leading to subfloor issues. Pro Flooring 323 provides expert subfloor installation and repair services to ensure a solid foundation for your new or existing floors.\n\nWe inspect your subfloor for signs of damage, such as moisture, rot, cracks, and unevenness. We then recommend the appropriate repair or replacement solution. Our services include leveling, reinforcing, and moisture-proofing subfloors to prevent future problems. We use high-quality materials and proven techniques to ensure a durable and stable subfloor.\n\nWhether you're installing new flooring or experiencing problems with your existing floors, Pro Flooring 323 can help you create a solid foundation that will last for years to come.",
+        "process": [
+          "Step 1: Subfloor Inspection and Assessment",
+          "Step 2: Repair or Replacement Recommendation",
+          "Step 3: Subfloor Leveling and Reinforcement",
+          "Step 4: Moisture Proofing and Sealing"
+        ],
+        "benefits": [
+          "Ensures Flooring Stability",
+          "Prevents Moisture Damage",
+          "Extends Flooring Lifespan",
+          "Improves Flooring Performance"
+        ],
+        "faq": [
+          {
+            "question": "Why is subfloor important?",
+            "answer": "The subfloor provides a stable and level surface for your flooring. It also helps to prevent moisture damage and extend the life of your floors."
+          },
+          {
+            "question": "How do I know if my subfloor needs repair?",
+            "answer": "Signs of subfloor damage include squeaky floors, uneven surfaces, moisture stains, and rot."
+          },
+          {
+            "question": "What are the different types of subfloor?",
+            "answer": "Common types of subfloor include plywood, OSB (oriented strand board), and concrete."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Marietta",
+        "slug": "marietta-ga",
+        "state": "GA",
+        "content": "Pro Flooring 323 is proud to offer our expert flooring services to the residents of Marietta, Georgia. Known for its established subdivisions dating back to the 1960s and 70s, Marietta homes often benefit from flooring updates that enhance both style and functionality. We understand the unique needs of Marietta homeowners and offer a wide range of flooring options to complement the character of your home. \n\nOur team has extensive experience working in Marietta, and we are familiar with the architectural styles and common flooring types found in the area. We provide professional installation, repair, and replacement services using high-quality materials and proven techniques. We can help you find the perfect flooring solution to withstand the hot, humid summers typical of the Marietta climate.",
+        "localContext": "Marietta is a vibrant city with a rich history and a mix of older and newer homes, requiring flooring solutions that are both durable and aesthetically pleasing. We understand the local climate and its impact on flooring materials.",
+        "nearbyAreas": [
+          "Smyrna",
+          "Kennesaw",
+          "Roswell"
+        ]
+      },
+      {
+        "city": "Roswell",
+        "slug": "roswell-ga",
+        "state": "GA",
+        "content": "Pro Flooring 323 is delighted to serve the upscale community of Roswell, Georgia. Known for its beautiful homes and well-maintained neighborhoods developed primarily in the 1980s and 90s, Roswell residents value quality and craftsmanship. We offer a wide selection of premium flooring options to enhance the elegance and sophistication of Roswell homes.\n\nWe understand that Roswell homeowners have discerning tastes and expect the best in terms of both product and service. Our experienced team provides expert installation and repair services, ensuring that your new flooring looks stunning and lasts for years to come. From hardwood and tile to carpet and laminate, we have the perfect flooring solution to meet your needs and budget and withstand Roswell's hot and humid summers.",
+        "localContext": "Roswell is a thriving city with a focus on quality living and upscale homes, requiring flooring that reflects its affluent character and withstands the local climate.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Marietta",
+          "Sandy Springs"
+        ]
+      },
+      {
+        "city": "Alpharetta",
+        "slug": "alpharetta-ga",
+        "state": "GA",
+        "content": "Pro Flooring 323 proudly serves the rapidly growing city of Alpharetta, Georgia. Characterized by upscale developments built primarily in the 1990s and 2000s, Alpharetta homes often feature modern designs and sophisticated finishes. We offer a comprehensive range of flooring solutions to complement the contemporary aesthetic of Alpharetta residences.\n\nWe understand that Alpharetta homeowners seek flooring options that are both stylish and durable. Our team of experts provides professional installation and repair services, ensuring that your new flooring enhances the beauty and value of your home. We also consider the area's hot and humid summers when recommending materials.",
+        "localContext": "Alpharetta is a dynamic city known for its upscale developments and modern homes, demanding flooring solutions that are both stylish and resilient.",
+        "nearbyAreas": [
+          "Roswell",
+          "Johns Creek",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Johns Creek",
+        "slug": "johns-creek-ga",
+        "state": "GA",
+        "content": "Pro Flooring 323 is pleased to offer our flooring expertise to the residents of Johns Creek, Georgia. Known for its upscale subdivisions developed primarily in the 1990s and 2000s, Johns Creek homes often feature high-end finishes and elegant designs. We provide a wide array of premium flooring options to enhance the beauty and value of Johns Creek residences.\n\nWe understand that Johns Creek homeowners demand the best in terms of quality and service. Our experienced team offers professional installation, repair, and refinishing services, ensuring that your flooring looks impeccable and lasts for years to come. We prioritize materials that perform well in the hot and humid summers common to the area.",
+        "localContext": "Johns Creek is an affluent city with a reputation for upscale living and elegant homes, requiring flooring that complements its sophisticated atmosphere.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Suwanee",
+          "Duluth"
+        ]
+      },
+      {
+        "city": "Kennesaw",
+        "slug": "kennesaw-ga",
+        "state": "GA",
+        "content": "Pro Flooring 323 is happy to provide flooring services to the residents of Kennesaw, Georgia. Known for its suburban developments from the 1980s and 90s, Kennesaw homes often require updates to enhance their appeal. We offer a variety of flooring options that are both affordable and stylish for Kennesaw homeowners.\n\nOur team understands that Kennesaw homeowners are looking for value and quality. We provide professional installation and repair services, ensuring that your new flooring will look great and last for years. We offer a wide variety of flooring to stand up to the hot and humid summers.",
+        "localContext": "Kennesaw is a family-friendly city with a mix of established neighborhoods and newer developments, requiring flooring solutions that are both practical and aesthetically pleasing.",
+        "nearbyAreas": [
+          "Marietta",
+          "Acworth",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Smyrna",
+        "slug": "smyrna-ga",
+        "state": "GA",
+        "content": "Pro Flooring 323 is dedicated to serving the diverse community of Smyrna, Georgia. Smyrna features a mix of older homes and newer developments, offering a wide range of styles and needs when it comes to flooring. We are committed to providing Smyrna residents with high-quality flooring solutions at competitive prices.\n\nWe understand that Smyrna homeowners are looking for flooring options that are both stylish and affordable. Our team provides professional installation and repair services, ensuring that your new flooring looks great and stands the test of time. We offer versatile flooring options that are perfect for Smyrna's hot and humid climate.",
+        "localContext": "Smyrna is a growing city with a diverse mix of housing styles, requiring flooring solutions that are adaptable and cater to a range of budgets.",
+        "nearbyAreas": [
+          "Marietta",
+          "Vinings",
+          "Mableton"
+        ]
+      },
+      {
+        "city": "Sandy Springs",
+        "slug": "sandy-springs-ga",
+        "state": "GA",
+        "content": "Pro Flooring 323 is pleased to offer our expert flooring services to the residents of Sandy Springs, Georgia. Known for its affluent neighborhoods and beautiful homes, Sandy Springs residents often seek high-quality flooring options that enhance their properties' value and appeal. We offer a wide range of premium flooring choices to meet the discerning tastes of Sandy Springs homeowners.\n\nWe understand that Sandy Springs homeowners expect the best in terms of both product and service. Our experienced team provides professional installation, repair, and refinishing services, ensuring that your new flooring looks stunning and lasts for years to come. We also take into account the impact of the climate on your flooring choices.",
+        "localContext": "Sandy Springs is an upscale city with a focus on luxury living and well-maintained homes, demanding flooring solutions that are both elegant and durable.",
+        "nearbyAreas": [
+          "Roswell",
+          "Dunwoody",
+          "Atlanta"
+        ]
+      },
+      {
+        "city": "Dunwoody",
+        "slug": "dunwoody-ga",
+        "state": "GA",
+        "content": "Pro Flooring 323 proudly offers flooring services to the residents of Dunwoody, Georgia. Dunwoody is known for its well-established neighborhoods and diverse housing styles, providing a range of flooring needs. We are committed to serving Dunwoody homeowners with quality products and expert installation.\n\nWe understand that Dunwoody homeowners are looking for flooring solutions that are both functional and stylish. Our team provides professional installation and repair services, ensuring that your new flooring adds value to your home. We understand the climate and provide materials that will last.",
+        "localContext": "Dunwoody is a mature city with a mix of residential and commercial areas, requiring flooring solutions that are both practical and aesthetically pleasing.",
+        "nearbyAreas": [
+          "Sandy Springs",
+          "Roswell",
+          "Brookhaven"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maria S.",
+        "rating": 5,
+        "service": "Hardwood Flooring",
+        "text": "Pro Flooring 323 did an amazing job installing new hardwood floors in my Virginia-Highland bungalow. The team was professional, efficient, and the floors look fantastic. They even helped me choose a stain that perfectly complemented my existing trim. Highly recommend!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David B.",
+        "rating": 4,
+        "service": "Laminate Flooring",
+        "text": "We had Pro Flooring 323 install laminate flooring in our basement. The price was fair, and the installation was quick. There was a small issue with a damaged plank, but they came back and replaced it promptly. Overall, a good experience.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Jennifer K.",
+        "rating": 5,
+        "service": "Tile Flooring",
+        "text": "I hired Pro Flooring 323 to tile my kitchen backsplash. The result is stunning! They paid attention to every detail and made sure the grout lines were perfect. The whole team was a pleasure to work with.",
+        "date": "2024-08-05"
+      },
+      {
+        "name": "Robert L.",
+        "rating": 5,
+        "service": "Floor Repair Services",
+        "text": "After a pipe burst, our hardwood floors suffered water damage. Pro Flooring 323 came to the rescue! They repaired the damaged boards and refinished the entire floor. You can't even tell there was ever any damage. Excellent work!",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Susan M.",
+        "rating": 4,
+        "service": "Carpet Installation",
+        "text": "Pro Flooring 323 installed new carpet in our bedrooms. The installation was quick and efficient. The carpet feels great underfoot. My only minor complaint is that there was a small delay in scheduling the installation.",
+        "date": "2024-06-22"
+      },
+      {
+        "name": "Michael P.",
+        "rating": 5,
+        "service": "Hardwood Flooring",
+        "text": "Excellent service from start to finish! The team at Pro Flooring 323 helped us select the perfect hardwood floors for our living room and installed them with precision and care. Our home looks completely transformed. We highly recommend their services!",
+        "date": "2025-02-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Pro Flooring 323 | Atlanta Flooring Contractor",
+        "description": "Atlanta's trusted flooring experts. Hardwood, laminate, vinyl, & tile installation. Free quotes. Call +16789232542."
+      },
+      "about": {
+        "title": "About Pro Flooring 323 | Atlanta Flooring",
+        "description": "Learn about Pro Flooring 323's commitment to quality flooring in Atlanta, GA. Local experts with years of experience."
+      },
+      "services": {
+        "title": "Flooring Services | Pro Flooring 323 Atlanta",
+        "description": "Full-service flooring contractor. Hardwood, laminate, vinyl, tile, carpet. Installation, repair, refinishing. Free estimates."
+      },
+      "contact": {
+        "title": "Contact Pro Flooring 323 | Atlanta GA",
+        "description": "Contact Atlanta's premier flooring contractor. Call +16789232542 for a free quote. Serving all of metro Atlanta."
+      },
+      "reviews": {
+        "title": "Pro Flooring 323 Reviews | Atlanta GA",
+        "description": "Read reviews from satisfied Pro Flooring 323 customers in Atlanta. Quality flooring installation and repair services."
+      },
+      "service-areas": {
+        "title": "Pro Flooring 323 Service Areas | Atlanta GA",
+        "description": "Pro Flooring 323 serves all of metro Atlanta. Marietta, Roswell, Alpharetta, Johns Creek, Kennesaw and more."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "hardwood-flooring": "/images/service-hardwood-flooring.webp",
+      "laminate-flooring": "/images/service-laminate-flooring.webp",
+      "vinyl-flooring": "/images/service-vinyl-flooring.webp",
+      "tile-flooring": "/images/service-tile-flooring.webp",
+      "carpet-installation": "/images/service-carpet-installation.webp",
+      "floor-repair": "/images/service-floor-repair.webp",
+      "subfloor-services": "/images/service-subfloor-services.webp"
+    },
+    "servicesResponsive": {
+      "hardwood-flooring": {
+        "src": "/images/service-hardwood-flooring.webp",
+        "srcset": "/images/service-hardwood-flooring-400w.webp 400w, /images/service-hardwood-flooring-800w.webp 800w, /images/service-hardwood-flooring-1200w.webp 1200w, /images/service-hardwood-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "laminate-flooring": {
+        "src": "/images/service-laminate-flooring.webp",
+        "srcset": "/images/service-laminate-flooring-400w.webp 400w, /images/service-laminate-flooring-800w.webp 800w, /images/service-laminate-flooring-1200w.webp 1200w, /images/service-laminate-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "vinyl-flooring": {
+        "src": "/images/service-vinyl-flooring.webp",
+        "srcset": "/images/service-vinyl-flooring-400w.webp 400w, /images/service-vinyl-flooring-800w.webp 800w, /images/service-vinyl-flooring-1200w.webp 1200w, /images/service-vinyl-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tile-flooring": {
+        "src": "/images/service-tile-flooring.webp",
+        "srcset": "/images/service-tile-flooring-400w.webp 400w, /images/service-tile-flooring-800w.webp 800w, /images/service-tile-flooring-1200w.webp 1200w, /images/service-tile-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "carpet-installation": {
+        "src": "/images/service-carpet-installation.webp",
+        "srcset": "/images/service-carpet-installation-400w.webp 400w, /images/service-carpet-installation-800w.webp 800w, /images/service-carpet-installation-1200w.webp 1200w, /images/service-carpet-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "floor-repair": {
+        "src": "/images/service-floor-repair.webp",
+        "srcset": "/images/service-floor-repair-400w.webp 400w, /images/service-floor-repair-800w.webp 800w, /images/service-floor-repair-1200w.webp 1200w, /images/service-floor-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "subfloor-services": {
+        "src": "/images/service-subfloor-services.webp",
+        "srcset": "/images/service-subfloor-services-400w.webp 400w, /images/service-subfloor-services-800w.webp 800w, /images/service-subfloor-services-1200w.webp 1200w, /images/service-subfloor-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
